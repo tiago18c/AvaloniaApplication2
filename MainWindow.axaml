@@ -1,0 +1,30 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication2.MainWindow"
+        xmlns:vro="clr-namespace:AvaloniaApplication2;assembly=AvaloniaApplication2"
+        Title="AvaloniaApplication2">
+  <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="2">
+  <DockPanel>
+    <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
+      <TextBlock>hello</TextBlock>
+      <TextBlock>aaaaaaaaaa</TextBlock>
+      <Separator></Separator>
+      <Expander>
+        <Calendar></Calendar>
+      </Expander>
+      <TextBlock>wwwwwwwww</TextBlock>
+      <TextBlock>dddddddddd</TextBlock>
+      <Button>I'm gonna do things</Button>
+      <Button Click="evt">me too</Button>
+      <TextBlock>xd</TextBlock>
+    </StackPanel>
+
+    <Border x:Name="_bd" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="2">
+      <vro:UserControl1 ></vro:UserControl1>
+    </Border>
+  </DockPanel>
+  </Border>
+</Window>
